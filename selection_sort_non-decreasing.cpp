@@ -21,7 +21,7 @@ int main()
     
     int array[10], iterator0, iterator1, buffer,iterator_value=0;
     
-    for(iterator0=0;iterator0<10;iterator0++){  //generate 10 random numbers
+    for(iterator0=0;iterator0<9;iterator0++){  //generate 10 random numbers
         array[iterator0]=rand()%10;
     }
     cout<<"got all random numbers"<<endl;
