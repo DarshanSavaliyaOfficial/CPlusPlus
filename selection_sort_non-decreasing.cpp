@@ -3,7 +3,7 @@
 Author: Darshan Savaliya
 GitHub Portfolio: DarshanSavaliyaOfficial
 
-Name of the file: Insertion_sort_non_decreasing
+Name of the file: Selection_sort_non_decreasing
 functions: main()
 variables: array, iterator0, iterator1, buffer, iterator_value
 
@@ -30,7 +30,7 @@ int main()
     }
     cout<<endl;
     
-    for(iterator0=0;iterator0<10;iterator0++){
+    for(iterator0=0;iterator0<9;iterator0++){
         buffer=array[iterator0];               //initialize buffer value
         for(iterator1=iterator0;iterator1<10;iterator1++){  //find the smallest value
                                                             //from the remaining array
