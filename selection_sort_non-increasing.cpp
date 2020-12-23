@@ -3,7 +3,7 @@
 Author: Darshan Savaliya
 GitHub Portfolio: DarshanSavaliyaOfficial
 
-Name of the file: Insertion_sort_non_decreaasing
+Name of the file: Selection_sort_non_decreaasing
 functions: main()
 variables: array, iterator0, iterator1, buffer, iterator_value
 
@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
     /*
-    Implement seletion sort algorithm and print the output of a non-decreasing sorted array
+    Implement seletion sort algorithm and print the output of a non-increasing sorted array
     */
     
     int array[10], iterator0, iterator1, buffer,iterator_value=0;
@@ -32,7 +32,7 @@ int main()
     
     for(iterator0=0;iterator0<10;iterator0++){
         buffer=0;               //initialize buffer value
-        for(iterator1=iterator0;iterator1<10;iterator1++){  //find the smallest value
+        for(iterator1=iterator0;iterator1<10;iterator1++){  //find the largest value
                                                             //from the remaining array
             if(buffer<array[iterator1]){
                 buffer = array[iterator1];     
